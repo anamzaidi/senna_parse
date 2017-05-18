@@ -9,7 +9,7 @@ This script:
   - runs the sentences through the senna parser
   - parses the output
 
-Before runnig, modify config.py for your system
+Before running, modify config.py for your system
 
   run like this: $python3 senna_parse.py
 
