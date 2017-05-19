@@ -22,6 +22,3 @@ infile = 'in.txt'
 
 # output file
 outfile = 'senna.out'
-
-# the -posvbs flag so senna won't ignore 'be' verbs
-posvbs = True
