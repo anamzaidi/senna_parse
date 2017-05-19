@@ -36,9 +36,7 @@ if __name__ == "__main__":
     # run senna on sentences
     infile = open(f_sent)
     outfile = open(config.outfile, 'w')
-    command = config.senna
-    if config.posvbs:
-        command += " -posvbs "
+
     # use the following for mac or linux
     p = subprocess.Popen([config.senna] + ['-posvbs'], stdin=infile, stdout=outfile, cwd=config.senna_dir)
     # use the following for windows, it needs the shell=True
